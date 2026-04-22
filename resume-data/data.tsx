@@ -29,10 +29,8 @@ export const DATA = {
         url:"https://stackoverflow.com/users/23166872/aliyan-ahmed?tab=profile"
       }
     ],
-    resume: "/AliyanAL_Resume.pdf",
-    heroMedia: "/AliyanA_Bitmoji_Bearded.png", 
-    heroBody: "/AliyanA_Bitmoji_Body.png", 
-    heroArm: "/AliyanA_Bitmoji_Hand.png",
+    resume: "/AliyanA_Resume.pdf",
+    heroMedia: "/AliyanA_Bitmoji.png",
     aboutMe:`My journey into code kicked off during the **2020 lockdown**. What started as a deep curiosity quickly turned into a career, taking me from a self-taught enthusiast to a **core contributor** on established **ASP.NET Core** teams.
 * While my "home base" is the Microsoft stack, I’ve built a versatile toolkit spanning **PHP (Laravel)**, **Full-stack JavaScript (React/Next.js)**, and a mix of **SQL/NoSQL** architectures.
 
@@ -99,7 +97,7 @@ experiences: [
       shortSummary: "Contributed to scaled HR and inventory systems using the Laravel stack."
     }
   ],
-  academics: [
+  educations: [
     {
       school: "Mohammad Ali Jinnah University",
       logo: "/logos/academics/maju.png",
@@ -142,6 +140,23 @@ experiences: [
         "Maintained a strong focus on technical subjects and computational thinking."
       ]
     }
+  ],
+  certificates: [
+    // {
+    //   title: "Full Stack Development",
+    //   issuer: "Aptech",
+    //   date: "2023",
+    //   link: "https://www.linkedin.com/posts/...", // Link or ""
+    // },
+  ],
+  achievements: [
+    // {
+    //   title: "Employee of the Month",
+    //   issuer: "Indigo Textile", // Added issuer here
+    //   description: "Recognized for leading the FBR Invoicing project.",
+    //   date: "2025",
+    //   link: "", // No link example
+    // },
   ],
   projectData: [
   {

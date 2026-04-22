@@ -8,51 +8,31 @@ import { Download, Mail } from "lucide-react";
 import Image from "next/image";
 
 function Home() {
-  const { heroBody, heroArm, heroMedia, name, description, skill, resume, email } = DATA.personalData;
-
-  const isFallbackActive = heroMedia && heroMedia !== "";
+  const { heroMedia, name, description, skill, resume, email } = DATA.personalData;
 
   return (
     // Changed gap-10 to gap-6 and py-10 to py-0 for desktop
     <div className="flex flex-col lg:flex-row items-center justify-center gap-4 lg:gap-8 py-0 max-w-7xl mx-auto">
       
       {/* MEDIA AREA */}
-      <div className="flex-1 lg:flex-shrink-0 order-1 lg:order-2 flex items-center justify-center w-full mt-[-20px] lg:mt-0">
+      <div className="flex-1 lg:flex-shrink-0 order-1 lg:order-2 flex items-center justify-center w-full mt-[-40px] md:mt-[-20px] lg:mt-0">
         <BlurFade delay={BLUR_DELAY * 2} className="w-full h-full">
           <div className="relative w-full h-full flex items-center justify-center drop-shadow-[0_0_50px_rgba(255,255,255,0.15)]">
-            
-            {isFallbackActive ? (
-              <div className="relative w-[240px] h-[350px] md:w-[450px] md:h-[600px] lg:w-[550px] lg:h-[750px]">
-                <Image
-                  src={heroMedia}
-                  alt={name}
-                  fill
-                  priority
-                  className="object-contain select-none pointer-events-none"
-                  sizes="(max-width: 1024px) 100vw, 60vw"
-                />
-              </div>
-            ) : (
-              <div className="relative w-[180px] h-[280px] md:w-[350px] md:h-[500px] lg:w-[400px] lg:h-[600px]">
-                <Image
-                  src={heroBody}
-                  alt={name}
-                  fill
-                  priority
-                  className="object-contain z-10 select-none pointer-events-none"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                />
-                <div className="absolute top-[-2%] left-[7%] w-[50%] h-[50%] animate-waving-hand origin-bottom-right z-0 rotate-[-15deg]">
-                  <Image
-                    src={heroArm}
-                    alt="Waving arm"
-                    fill
-                    className="object-contain select-none pointer-events-none"
-                    priority
-                  />
-                </div>
-              </div>
-            )}
+            {/* ENLARGED DIMENSIONS:
+                Mobile: 240x350 -> 320x450
+                Tablet: 450x600 -> 550x750
+                Desktop: 550x750 -> 650x850
+            */}
+            <div className="relative w-[320px] h-[450px] md:w-[550px] md:h-[750px] lg:w-[650px] lg:h-[850px]">
+              <Image
+                src={heroMedia}
+                alt={name}
+                fill
+                priority
+                className="object-contain select-none pointer-events-none"
+                sizes="(max-width: 1024px) 100vw, 60vw"
+              />
+            </div>
           </div>
         </BlurFade>
       </div>

@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
   /* background: rgb(205, 219, 238); */
-  overflow: hidden;
+  /* overflow: hidden; */
   scroll-behavior: initial;
 }
 

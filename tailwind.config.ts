@@ -64,18 +64,6 @@ export default {
 			md: "calc(var(--radius) - 2px)",
 			sm: "calc(var(--radius) - 4px)",
 		  },
-		  keyframes: {
-				wave: {
-					'0%, 100%': { transform: 'rotate(-13deg)' },
-					// '20%': { transform: 'rotate(-15deg)' },
-					// '40%': { transform: 'rotate(10deg)' },
-					'50%': { transform: 'rotate(-20deg)' },
-					// '80%': { transform: 'rotate(5deg)' },
-				},
-			},
-			animation: {
-			'waving-hand': 'wave 2s ease-in-out infinite',
-			},
   	}
   },
   plugins: [require("tailwindcss-animate")],
