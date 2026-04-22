@@ -70,7 +70,7 @@ function Academics() {
               >
                 {activeTab}
                 <div className="relative">
-                  <span className="absolute top-2 size-1 md:size-3 bg-emerald-400 rounded-full ml-2" />
+                  <span className="absolute top-2 size-1 md:size-3 bg-emerald-400 rounded-full" />
                 </div>
               </motion.h2>
             </AnimatePresence>
