@@ -46,23 +46,6 @@ When I’m not in the IDE, you can usually find me:
   },
 experiences: [
     {
-      company: "Indigo Textile",
-      logo: "/logos/experience/indigo.png",
-      role: "Software Developer",
-      location: "Karachi, Pakistan",
-      startDate: "2024",
-      endDate: "2026",
-      technologies: ["C#", ".NET", "MS SQL Server", "ReactJs", "JavaScript", "jQuery", "Bootstrap"],
-      description: [
-        "Led the development of FBR-regulated invoicing systems, ensuring 100% compliance with national tax standards.",
-        "Engineered an automated dispensary solution that digitized inventory tracking and eliminated manual entry errors.",
-        "Optimized complex SQL stored procedures, significantly improving report generation and data retrieval speeds.",
-        "Collaborated with cross-functional teams to translate business requirements into scalable technical solutions.",
-        "Maintained and upscaled application performance based on direct stakeholder feedback and user requests."
-      ],
-      shortSummary: "Architected FBR-compliant invoicing and automated inventory solutions."
-    },
-    {
       company: "Aptech Learning",
       logo: "/logos/experience/aptech.png",
       role: "Teaching Assistant & Lab Instructor",
@@ -95,23 +78,26 @@ experiences: [
         "Fixed UI/UX bugs and assisted in feature migrations for ongoing client projects."
       ],
       shortSummary: "Contributed to scaled HR and inventory systems using the Laravel stack."
-    }
+    },
+    {
+      company: "Indigo Textile",
+      logo: "/logos/experience/indigo.png",
+      role: "Software Developer",
+      location: "Karachi, Pakistan",
+      startDate: "2024",
+      endDate: "2026",
+      technologies: ["C#", ".NET", "MS SQL Server", "ReactJs", "JavaScript", "jQuery", "Bootstrap"],
+      description: [
+        "Led the development of FBR-regulated invoicing systems, ensuring 100% compliance with national tax standards.",
+        "Engineered an automated dispensary solution that digitized inventory tracking and eliminated manual entry errors.",
+        "Optimized complex SQL stored procedures, significantly improving report generation and data retrieval speeds.",
+        "Collaborated with cross-functional teams to translate business requirements into scalable technical solutions.",
+        "Maintained and upscaled application performance based on direct stakeholder feedback and user requests."
+      ],
+      shortSummary: "Architected FBR-compliant invoicing and automated inventory solutions."
+    },
   ],
   educations: [
-    {
-      school: "Mohammad Ali Jinnah University",
-      logo: "/logos/academics/maju.png",
-      degree: "BS Computer Science",
-      location: "Karachi, Pakistan",
-      startDate: "2026",
-      endDate: "Present",
-      subjects: ["OOP", "Data Structures", "Database Systems", "Software Engineering"],
-      description: [
-        "Deepening knowledge in advanced algorithms and enterprise system architecture.",
-        "Applying professional industry standards to academic research and software projects.",
-        "Engaging with the local tech community through university coding circles and workshops."
-      ]
-    },
     {
       school: "Sindh Board of Technical Education",
       logo: "/logos/academics/sbte.png",
@@ -139,15 +125,51 @@ experiences: [
         "Developed early proficiency in basic programming logic and hardware theory.",
         "Maintained a strong focus on technical subjects and computational thinking."
       ]
-    }
+    },
+    {
+      school: "Mohammad Ali Jinnah University",
+      logo: "/logos/academics/maju.png",
+      degree: "BS Computer Science",
+      location: "Karachi, Pakistan",
+      startDate: "2026",
+      endDate: "Present",
+      subjects: ["OOP", "Data Structures", "Database Systems", "Software Engineering"],
+      description: [
+        "Deepening knowledge in advanced algorithms and enterprise system architecture.",
+        "Applying professional industry standards to academic research and software projects.",
+        "Engaging with the local tech community through university coding circles and workshops."
+      ]
+    },
   ],
   certificates: [
-    // {
-    //   title: "Full Stack Development",
-    //   issuer: "Aptech",
-    //   date: "2023",
-    //   link: "https://www.linkedin.com/posts/...", // Link or ""
-    // },
+    {
+      title: "Higher Diploma in Software Development",
+      issuer: "Aptech Learning", // Added issuer here
+      logo: "/logos/experience/aptech.png",
+      date: "2023",
+      link: "", // Link or ""
+    },
+    {
+      title: "Professional and Career Networking",
+      issuer: "Coursera",
+      logo: "/logos/certificates/coursera.png",
+      date: "2026",
+      link: "https://coursera.org/share/18a04310a8349a063c41025d6380d8a6", // Link or ""
+    },
+    {
+      title: "Microsoft Office Fundamentals",
+      issuer: "Coursera",
+      logo: "/logos/certificates/coursera.png",
+      date: "2026",
+      link: "https://coursera.org/share/6326a5965970fc49417eaec1377263bb", // Link or ""
+    },
+    {
+      title: "Modern AI",
+      issuer: "Cisco Networking Academy",
+      logo: "/logos/certificates/cisco.png",
+      date: "2026",
+      link: "https://www.linkedin.com/posts/realaliyanahmed_introduction-to-modern-ai-certificate-activity-7451005570137964545-MKLv", // Link or ""
+    },
   ],
   achievements: [
     // {

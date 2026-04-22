@@ -22,7 +22,7 @@ function Experience() {
         </div>
 
         <div className="space-y-6 pb-20">
-          {DATA.experiences.map((experience, index) => {
+          {DATA.experiences.slice().reverse().map((experience, index) => {
             const isOpen = expandedIndex === index;
 
             return (

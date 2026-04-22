@@ -20,35 +20,38 @@ function Academics() {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
 
   const renderContent = () => {
-    switch (activeTab) {
-      case "Education":
-        return DATA.educations.map((edu, idx) => (
-          <AcademicCard 
-            key={idx} 
-            item={edu} 
-            isOpen={expandedIndex === idx} 
-            onClick={() => setExpandedIndex(expandedIndex === idx ? null : idx)} 
-          />
-        ));
+  switch (activeTab) {
+    case "Education":
+      // Reversing education so latest degree is first
+      return DATA.educations.slice().reverse().map((edu, idx) => (
+        <AcademicCard 
+          key={idx} 
+          item={edu} 
+          isOpen={expandedIndex === idx} 
+          onClick={() => setExpandedIndex(expandedIndex === idx ? null : idx)} 
+        />
+      ));
 
-      case "Certificates":
-        return (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {DATA.certificates.map((cert, idx) => (
-              <CertificateCard key={idx} item={cert} />
-            ))}
-          </div>
-        );
+    case "Certificates":
+      return (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {/* Reversing certificates to show newest first */}
+          {DATA.certificates.slice().reverse().map((cert, idx) => (
+            <CertificateCard key={idx} item={cert} />
+          ))}
+        </div>
+      );
 
-      case "Awards":
-        return DATA.achievements.map((award, idx) => (
-          <AwardCard key={idx} item={award} />
-        ));
-        
-      default:
-        return null;
-    }
-  };
+    case "Awards":
+      /* Reversing awards so most recent recognition is at the top */
+      return DATA.achievements.slice().reverse().map((award, idx) => (
+        <AwardCard key={idx} item={award} />
+      ));
+      
+    default:
+      return null;
+  }
+};
 
   return (
     <div className="min-h-[calc(100vh-6rem)] text-foreground px-4 md:px-0">
@@ -121,12 +124,25 @@ function CertificateCard({ item }: { item: any }) {
         hasLink ? "cursor-pointer hover:border-emerald-500/50 hover:shadow-md group" : "cursor-default"
       )}
     >
-      <div className="bg-emerald-500/10 p-3 rounded-xl transition-colors group-hover:bg-emerald-500/20">
-        <BadgeCheck className="text-emerald-500 size-6" />
+      {/* ICON OR LOGO SECTION */}
+      <div className="relative size-12 md:size-14 shrink-0 overflow-hidden rounded-xl flex items-center justify-center border border-border bg-white transition-colors group-hover:border-emerald-500/30">
+        {item.logo ? (
+          <Image 
+            src={item.logo} 
+            alt={item.issuer} 
+            fill 
+            className="object-contain p-2" 
+          />
+        ) : (
+          <div className="bg-emerald-500/10 w-full h-full flex items-center justify-center">
+            <BadgeCheck className="text-emerald-500 size-6" />
+          </div>
+        )}
       </div>
+
       <div className="flex-1">
         <div className="flex items-center gap-2">
-          <h3 className="font-bold text-lg">{item.title}</h3>
+          <h3 className="font-bold text-lg leading-tight">{item.title}</h3>
           {hasLink && <ExternalLink className="size-3 text-muted-foreground group-hover:text-emerald-500 transition-colors" />}
         </div>
         <p className="text-sm text-muted-foreground">{item.issuer} • {item.date}</p>
