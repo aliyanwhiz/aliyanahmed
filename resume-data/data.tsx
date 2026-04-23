@@ -98,6 +98,20 @@ experiences: [
     },
   ],
   educations: [
+{
+      school: "Board of Secondary Education",
+      logo: "/logos/academics/bsek.png",
+      degree: "Secondary School Certificate (CS)",
+      location: "Karachi, Pakistan",
+      startDate: "2019",
+      endDate: "2021",
+      subjects: ["Introduction to CS", "Programming Logic", "Hardware Fundamentals"],
+      description: [
+        "Completed a file-management automation project involving programmatic directory manipulation.",
+        "Developed early proficiency in basic programming logic and hardware theory.",
+        "Maintained a strong focus on technical subjects and computational thinking."
+      ]
+    },
     {
       school: "Sindh Board of Technical Education",
       logo: "/logos/academics/sbte.png",
@@ -110,20 +124,6 @@ experiences: [
         "Built a specialized C++ calculator featuring advanced functions for averages, roots, and base power calculations.",
         "Developed a strong foundation in Object-Oriented Programming and practical network configuration.",
         "Studied deep hardware theory and hands-on troubleshooting for organizational IT infrastructure."
-      ]
-    },
-    {
-      school: "Board of Secondary Education",
-      logo: "/logos/academics/bsek.png",
-      degree: "Secondary School Certificate (CS)",
-      location: "Karachi, Pakistan",
-      startDate: "2019",
-      endDate: "2021",
-      subjects: ["Introduction to CS", "Programming Logic", "Hardware Fundamentals"],
-      description: [
-        "Completed a file-management automation project involving programmatic directory manipulation.",
-        "Developed early proficiency in basic programming logic and hardware theory.",
-        "Maintained a strong focus on technical subjects and computational thinking."
       ]
     },
     {
