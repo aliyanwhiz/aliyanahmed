@@ -45,6 +45,23 @@ When I’m not in the IDE, you can usually find me:
 
   },
 experiences: [
+     {
+      company: "Weblinx Solutions",
+      logo: "/logos/experience/weblinx.png",
+      role: "Software Development Intern",
+      location: "Karachi, Pakistan",
+      startDate: "2021",
+      endDate: "2022",
+      technologies: ["PHP (Laravel)", "jQuery", "Bootstrap", "MySQL"],
+      description: [
+        "Contributed to a scaled enterprise application featuring integrated HR components, payroll management, and employee attendance.",
+        "Developed checkout and inventory-keeping modules for a local store management solution.",
+        "Adapted to professional SDLC workflows, focusing on clean code implementation and team collaboration.",
+        "Gained hands-on experience in full-stack development using Laravel, jQuery, and Bootstrap to build responsive UIs.",
+        "Fixed UI/UX bugs and assisted in feature migrations for ongoing client projects."
+      ],
+      shortSummary: "Contributed to scaled HR and inventory systems using the Laravel stack."
+    },
     {
       company: "Aptech Learning",
       logo: "/logos/experience/aptech.png",
@@ -61,23 +78,6 @@ experiences: [
         "Conducted targeted revision sessions for students requiring extra attention on core programming concepts."
       ],
       shortSummary: "Mentored students across multiple tech stacks and managed technical lab environments."
-    },
-    {
-      company: "Weblinx Solutions",
-      logo: "/logos/experience/weblinx.png",
-      role: "Software Development Intern",
-      location: "Karachi, Pakistan",
-      startDate: "2021",
-      endDate: "2022",
-      technologies: ["PHP (Laravel)", "jQuery", "Bootstrap", "MySQL"],
-      description: [
-        "Contributed to a scaled enterprise application featuring integrated HR components, payroll management, and employee attendance.",
-        "Developed checkout and inventory-keeping modules for a local store management solution.",
-        "Adapted to professional SDLC workflows, focusing on clean code implementation and team collaboration.",
-        "Gained hands-on experience in full-stack development using Laravel, jQuery, and Bootstrap to build responsive UIs.",
-        "Fixed UI/UX bugs and assisted in feature migrations for ongoing client projects."
-      ],
-      shortSummary: "Contributed to scaled HR and inventory systems using the Laravel stack."
     },
     {
       company: "Indigo Textile",
