@@ -170,6 +170,13 @@ experiences: [
       date: "2026",
       link: "https://www.linkedin.com/posts/realaliyanahmed_introduction-to-modern-ai-certificate-activity-7451005570137964545-MKLv", // Link or ""
     },
+    {
+      title: "Introduction to Game Development",
+      issuer: "Coursera",
+      logo: "/logos/certificates/coursera.png",
+      date: "2026",
+      link: "https://www.linkedin.com/posts/realaliyanahmed_cert-introduction-to-basic-game-development-ugcPost-7462067040195854336-zBr6", // Link or ""
+    },
   ],
   achievements: [
     // {
