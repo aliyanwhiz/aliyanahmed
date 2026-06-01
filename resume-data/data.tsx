@@ -3,7 +3,7 @@ export const BLUR_DELAY=0.04
 export const DATA = {
   personalData:{
     name:"Aliyan Ahmed",
-    description:"I am a Software Developer. I love to learn and explore new technologies and am passionate about problem-solving. I like a well structured environment that way I love to work with c#.",
+    description:"I am a Software Developer. I love to learn and explore new technologies and am passionate about problem-solving. I like a well structured environment that's why I love to work with c#.",
     skill:["Javascript","TypeScript","Node.js","React.js","Next.js","Framer Motion","PHP","Laravel","jQuery","C#","ASP .NET","ASP .NET Core","MS SQL Server","MySQL","MongoDB"],
     email:"aliyanahmed853@gmail.com",
     phone:"+92 3232732106",
