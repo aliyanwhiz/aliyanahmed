@@ -177,6 +177,13 @@ experiences: [
       date: "2026",
       link: "https://www.linkedin.com/posts/realaliyanahmed_cert-introduction-to-basic-game-development-ugcPost-7462067040195854336-zBr6", // Link or ""
     },
+    {
+      title: "Creating an e-commerce store with Shopify",
+      issuer: "Coursera",
+      logo: "/logos/certificates/coursera.png",
+      date: "2026",
+      link: "https://www.linkedin.com/posts/realaliyanahmed_certificate-creating-e-commerce-stores-with-ugcPost-7466090344514740224-CZKK", // Link or ""
+    },
   ],
   achievements: [
     // {
