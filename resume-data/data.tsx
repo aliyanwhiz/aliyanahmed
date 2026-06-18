@@ -3,7 +3,7 @@ export const BLUR_DELAY=0.04
 export const DATA = {
   personalData:{
     name:"Aliyan Ahmed",
-    description:"I am a Software Developer. I love to learn and explore new technologies and am passionate about problem-solving. I like a well structured environment that way I love to work with c#.",
+    description:"I am a Software Developer. I love to learn and explore new technologies and am passionate about problem-solving. I like a well structured environment that's why I love to work with c#.",
     skill:["Javascript","TypeScript","Node.js","React.js","Next.js","Framer Motion","PHP","Laravel","jQuery","C#","ASP .NET","ASP .NET Core","MS SQL Server","MySQL","MongoDB"],
     email:"aliyanahmed853@gmail.com",
     phone:"+92 3232732106",
@@ -45,6 +45,23 @@ When I’m not in the IDE, you can usually find me:
 
   },
 experiences: [
+     {
+      company: "Weblinx Solutions",
+      logo: "/logos/experience/weblinx.png",
+      role: "Software Development Intern",
+      location: "Karachi, Pakistan",
+      startDate: "2021",
+      endDate: "2022",
+      technologies: ["PHP (Laravel)", "jQuery", "Bootstrap", "MySQL"],
+      description: [
+        "Contributed to a scaled enterprise application featuring integrated HR components, payroll management, and employee attendance.",
+        "Developed checkout and inventory-keeping modules for a local store management solution.",
+        "Adapted to professional SDLC workflows, focusing on clean code implementation and team collaboration.",
+        "Gained hands-on experience in full-stack development using Laravel, jQuery, and Bootstrap to build responsive UIs.",
+        "Fixed UI/UX bugs and assisted in feature migrations for ongoing client projects."
+      ],
+      shortSummary: "Contributed to scaled HR and inventory systems using the Laravel stack."
+    },
     {
       company: "Aptech Learning",
       logo: "/logos/experience/aptech.png",
@@ -61,23 +78,6 @@ experiences: [
         "Conducted targeted revision sessions for students requiring extra attention on core programming concepts."
       ],
       shortSummary: "Mentored students across multiple tech stacks and managed technical lab environments."
-    },
-    {
-      company: "Weblinx Solutions",
-      logo: "/logos/experience/weblinx.png",
-      role: "Software Development Intern",
-      location: "Karachi, Pakistan",
-      startDate: "2021",
-      endDate: "2022",
-      technologies: ["PHP (Laravel)", "jQuery", "Bootstrap", "MySQL"],
-      description: [
-        "Contributed to a scaled enterprise application featuring integrated HR components, payroll management, and employee attendance.",
-        "Developed checkout and inventory-keeping modules for a local store management solution.",
-        "Adapted to professional SDLC workflows, focusing on clean code implementation and team collaboration.",
-        "Gained hands-on experience in full-stack development using Laravel, jQuery, and Bootstrap to build responsive UIs.",
-        "Fixed UI/UX bugs and assisted in feature migrations for ongoing client projects."
-      ],
-      shortSummary: "Contributed to scaled HR and inventory systems using the Laravel stack."
     },
     {
       company: "Indigo Textile",
@@ -98,6 +98,20 @@ experiences: [
     },
   ],
   educations: [
+{
+      school: "Board of Secondary Education",
+      logo: "/logos/academics/bsek.png",
+      degree: "Secondary School Certificate (CS)",
+      location: "Karachi, Pakistan",
+      startDate: "2019",
+      endDate: "2021",
+      subjects: ["Introduction to CS", "Programming Logic", "Hardware Fundamentals"],
+      description: [
+        "Completed a file-management automation project involving programmatic directory manipulation.",
+        "Developed early proficiency in basic programming logic and hardware theory.",
+        "Maintained a strong focus on technical subjects and computational thinking."
+      ]
+    },
     {
       school: "Sindh Board of Technical Education",
       logo: "/logos/academics/sbte.png",
@@ -110,20 +124,6 @@ experiences: [
         "Built a specialized C++ calculator featuring advanced functions for averages, roots, and base power calculations.",
         "Developed a strong foundation in Object-Oriented Programming and practical network configuration.",
         "Studied deep hardware theory and hands-on troubleshooting for organizational IT infrastructure."
-      ]
-    },
-    {
-      school: "Board of Secondary Education",
-      logo: "/logos/academics/bsek.png",
-      degree: "Secondary School Certificate (CS)",
-      location: "Karachi, Pakistan",
-      startDate: "2019",
-      endDate: "2021",
-      subjects: ["Introduction to CS", "Programming Logic", "Hardware Fundamentals"],
-      description: [
-        "Completed a file-management automation project involving programmatic directory manipulation.",
-        "Developed early proficiency in basic programming logic and hardware theory.",
-        "Maintained a strong focus on technical subjects and computational thinking."
       ]
     },
     {
@@ -169,6 +169,20 @@ experiences: [
       logo: "/logos/certificates/cisco.png",
       date: "2026",
       link: "https://www.linkedin.com/posts/realaliyanahmed_introduction-to-modern-ai-certificate-activity-7451005570137964545-MKLv", // Link or ""
+    },
+    {
+      title: "Introduction to Game Development",
+      issuer: "Coursera",
+      logo: "/logos/certificates/coursera.png",
+      date: "2026",
+      link: "https://www.linkedin.com/posts/realaliyanahmed_cert-introduction-to-basic-game-development-ugcPost-7462067040195854336-zBr6", // Link or ""
+    },
+    {
+      title: "Creating an e-commerce store with Shopify",
+      issuer: "Coursera",
+      logo: "/logos/certificates/coursera.png",
+      date: "2026",
+      link: "https://www.linkedin.com/posts/realaliyanahmed_certificate-creating-e-commerce-stores-with-ugcPost-7466090344514740224-CZKK", // Link or ""
     },
   ],
   achievements: [
