@@ -9,7 +9,6 @@ import Image from "next/image";
 function Academics() {
   const availableTabs = useMemo(() => {
     const tabs = [];
-    // Matching the keys in your provided DATA object logic
     if (DATA.educations?.length) tabs.push({ id: "Education", icon: GraduationCap });
     if (DATA.certificates?.length) tabs.push({ id: "Certificates", icon: BadgeCheck });
     if (DATA.achievements?.length) tabs.push({ id: "Awards", icon: Award });
@@ -22,7 +21,6 @@ function Academics() {
   const renderContent = () => {
   switch (activeTab) {
     case "Education":
-      // Reversing education so latest degree is first
       return DATA.educations.slice().reverse().map((edu, idx) => (
         <AcademicCard 
           key={idx} 
@@ -35,7 +33,6 @@ function Academics() {
     case "Certificates":
       return (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {/* Reversing certificates to show newest first */}
           {DATA.certificates.slice().reverse().map((cert, idx) => (
             <CertificateCard key={idx} item={cert} />
           ))}
@@ -43,7 +40,6 @@ function Academics() {
       );
 
     case "Awards":
-      /* Reversing awards so most recent recognition is at the top */
       return DATA.achievements.slice().reverse().map((award, idx) => (
         <AwardCard key={idx} item={award} />
       ));
