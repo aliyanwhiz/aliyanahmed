@@ -186,6 +186,13 @@ experiences: [
     },
   ],
   achievements: [
+{
+  title: "Competitive Programming - Hackathon",
+  issuer: "MAJU CodeCraft",
+  description: "Recognized for showcasing exceptional problem-solving and coding skills in the Competitive Programming category during the MAJU CodeCraft event.",
+  date: "2026",
+  link: "https://www.linkedin.com/posts/realaliyanahmed_hackathon-programming-battle-sp26-runner-ugcPost-7484962054475337728-kMBt/",
+},
     // {
     //   title: "Employee of the Month",
     //   issuer: "Indigo Textile", // Added issuer here
