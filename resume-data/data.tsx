@@ -4,7 +4,7 @@ export const DATA = {
   personalData:{
     name:"Aliyan Ahmed",
     description:"I am a Software Developer. I love to learn and explore new technologies and am passionate about problem-solving. I like a well structured environment that's why I love to work with c#.",
-    skill:["Javascript","TypeScript","Node.js","React.js","Next.js","Framer Motion","PHP","Laravel","jQuery","C#","ASP .NET","ASP .NET Core","MS SQL Server","MySQL","MongoDB"],
+    skill:["Javascript","TypeScript","Node.js","React.js","Next.js","Framer Motion","PHP","Laravel","WordPress","Shopify","Elementor","WooCommerce","Yoast SEO","WPForms","Astra","Divi","jQuery","C#","ASP .NET","ASP .NET Core","MS SQL Server","MySQL","MongoDB"],
     email:"aliyanahmed853@gmail.com",
     phone:"+92 3232732106",
     link:[
@@ -228,7 +228,7 @@ experiences: [
     //   link: "", // No link example
     // },
   ],
-  projectData: [
+ projectData: [
   {
     id: 1,
     name: "Weblinx Intern Project",
@@ -240,7 +240,7 @@ experiences: [
     link: "",
     code: "https://github.com/aliyanwhiz/Master_Hub",
     image: "",
-    tools: ['PHP (Laravel)', 'jQuery', 'Bootstrap', 'MySQL'],
+    tools: ['PHP', 'Laravel', 'jQuery', 'MySQL'],
     role: 'Software Development Intern',
   },
   {
@@ -268,7 +268,7 @@ experiences: [
     link: "",
     code: "https://github.com/aliyanwhiz/Carto-Ecommerece",
     image: "",
-    tools: ['Flutter', 'Dart', 'Laravel', 'MySQL'],
+    tools: ['Flutter', 'Dart', 'PHP', 'Laravel', 'MySQL'],
     role: 'Mobile App Developer',
   },
   {
@@ -282,7 +282,7 @@ experiences: [
     link: "",
     code: "https://github.com/aliyanwhiz/Appbook-ELibrary",
     image: "",
-    tools: ['Flutter', 'Dart', 'Laravel', 'MySQL'],
+    tools: ['Flutter', 'Dart', 'PHP', 'Laravel', 'MySQL'],
     role: 'Mobile App Developer',
   },
   {
@@ -296,7 +296,7 @@ experiences: [
     link: "",
     code: "https://github.com/aliyanwhiz/IMS-POS",
     image: "",
-    tools: ['C#', 'Windows Forms', '.NET Core', 'MS SQL Server'],
+    tools: ['C#', 'ASP .NET Core', 'MS SQL Server'],
     role: 'Desktop App Developer',
   },
   {
@@ -310,7 +310,7 @@ experiences: [
     link: "",
     code: "https://github.com/aliyanwhiz/Dukaan",
     image: "",
-    tools: ['ReactJs', 'TypeScript', 'Laravel', 'MySQL'],
+    tools: ['React.js', 'TypeScript', 'PHP', 'Laravel', 'MySQL'],
     role: 'Full Stack Developer',
   },
   {
@@ -324,7 +324,7 @@ experiences: [
     link: "",
     code: "https://github.com/aliyanwhiz/Master_Hub",
     image: "",
-    tools: ['C#', 'ASP.NET Core', 'MS SQL Server', 'Angular'],
+    tools: ['C#', 'ASP .NET Core', 'MS SQL Server'],
     role: 'Full Stack Developer',
   },
   {
@@ -338,7 +338,7 @@ experiences: [
     link: "",
     code: "",
     image: "",
-    tools: ['ReactJs', 'Bootstrap', 'ASP.NET Core', 'MS SQL Server'],
+    tools: ['React.js', 'ASP .NET Core', 'MS SQL Server'],
     role: 'Software Developer (Contributor)',
   },
   {
@@ -352,7 +352,7 @@ experiences: [
     link: "",
     code: "https://github.com/aliyanwhiz/CSManagement",
     image: "",
-    tools: ['C#', 'ASP.NET Core', 'MS SQL Server'],
+    tools: ['C#', 'ASP .NET Core', 'MS SQL Server'],
     role: 'Backend Developer',
   },
   {
@@ -366,8 +366,50 @@ experiences: [
     link: "",
     code: "",
     image: "",
-    tools: ['C#', 'ASP.NET Core', 'MS SQL Server'],
+    tools: ['C#', 'ASP .NET Core', 'MS SQL Server'],
     role: 'Software Developer',
+  },
+  {
+    id: 11,
+    name: "Khaas Apparel",
+    title: "Direct-to-Consumer Fashion E-Commerce Store",
+    results: [
+      { title: "Built a customized D2C storefront with localized Cash on Delivery (COD) workflows." },
+      { title: "Optimized conversion funnels and integrated inventory tracking for multi-city logistics." },
+    ],
+    link: "",
+    code: "",
+    image: "",
+    tools: ['Shopify', 'Javascript', 'PHP'],
+    role: 'CMS Developer',
+  },
+  {
+    id: 12,
+    name: "Al-Razi Healthcare & Diagnostics",
+    title: "Medical Portal & Online Appointment Booking",
+    results: [
+      { title: "Built a high-converting healthcare portal featuring online test booking and doctor consultations." },
+      { title: "Configured local SEO schema and speed-optimized custom layouts for seamless patient access." },
+    ],
+    link: "",
+    code: "",
+    image: "",
+    tools: ['WordPress', 'Elementor', 'Astra', 'Yoast SEO', 'WPForms', 'PHP', 'MySQL'],
+    role: 'WordPress Developer',
+  },
+  {
+    id: 13,
+    name: "Subhan Mart Online",
+    title: "High-Traffic Grocery & Wholesale Platform",
+    results: [
+      { title: "Engineered a custom WooCommerce storefront tailored for high-volume grocery transactions." },
+      { title: "Customized theme templates and automated order leads with custom dynamic form workflows." },
+    ],
+    link: "",
+    code: "",
+    image: "",
+    tools: ['WordPress', 'WooCommerce', 'Divi', 'Yoast SEO', 'WPForms', 'PHP', 'MySQL', 'jQuery'],
+    role: 'WordPress & WooCommerce Developer',
   },
 ]
 };
