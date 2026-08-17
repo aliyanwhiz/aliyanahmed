@@ -46,38 +46,50 @@ When I’m not in the IDE, you can usually find me:
   },
 experiences: [
      {
-      company: "Weblinx Solutions",
+      company: "Weblinx Solution",
       logo: "/logos/experience/weblinx.png",
       role: "Software Development Intern",
       location: "Karachi, Pakistan",
-      startDate: "2021",
-      endDate: "2022",
-      technologies: ["PHP (Laravel)", "jQuery", "Bootstrap", "MySQL"],
+      startDate: "09/2021",
+      endDate: "05/2022",
+      technologies: ["PHP", "Laravel", "WordPress", "WooCommerce", "MySQL", "JavaScript", "Automated Testing"],
       description: [
-        "Contributed to a scaled enterprise application featuring integrated HR components, payroll management, and employee attendance.",
-        "Developed checkout and inventory-keeping modules for a local store management solution.",
-        "Adapted to professional SDLC workflows, focusing on clean code implementation and team collaboration.",
-        "Gained hands-on experience in full-stack development using Laravel, jQuery, and Bootstrap to build responsive UIs.",
-        "Fixed UI/UX bugs and assisted in feature migrations for ongoing client projects."
+        "Built full-scale e-commerce sites and custom web apps using Laravel and WordPress WooCommerce with secure payment tracking.",
+        "Added features and speed upgrades to live projects by updating core PHP libraries, Laravel packages, and WordPress plugins.",
+        "Wrote automated tests and ran debugging tools to find bugs early and keep websites running smoothly."
       ],
-      shortSummary: "Contributed to scaled HR and inventory systems using the Laravel stack."
+      shortSummary: "Developed Laravel and WooCommerce e-commerce platforms with automated testing and performance enhancements."
+    },
+    {
+      company: "TechTricks IT Solutions",
+      logo: "/logos/experience/techtricks.png",
+      role: "CMS PHP Developer",
+      location: "Karachi, Pakistan",
+      startDate: "06/2022",
+      endDate: "08/2023",
+      technologies: ["PHP", "Laravel", "WordPress", "JavaScript", "MySQL", "APIs", "REST API", "Payment Gateways"],
+      description: [
+        "Collaborated on building responsive websites and web applications using PHP, Laravel frameworks, and custom WordPress setups.",
+        "Programmed and deployed tailored WordPress plugins to introduce advanced, custom functionalities to client sites.",
+        "Connected external marketing tools, API endpoints, and e-commerce payment systems securely into existing applications.",
+        "Ran comprehensive code tests, isolated software bugs, and optimized front-to-back asset delivery for faster website speeds."
+      ],
+      shortSummary: "Developed responsive PHP/Laravel web applications and custom WordPress plugins with secure API integrations."
     },
     {
       company: "Aptech Learning",
       logo: "/logos/experience/aptech.png",
-      role: "Teaching Assistant & Lab Instructor",
+      role: "Associate Faculty",
       location: "Karachi, Pakistan",
-      startDate: "2023",
-      endDate: "2024",
-      technologies: ["PHP (Laravel)", "C# (ASP.NET)", "Flutter", "MERN Stack"],
+      startDate: "09/2023",
+      endDate: "03/2024",
+      technologies: ["PHP (Laravel)", "C# (ASP.NET)", "Flutter", "MERN Stack", "Web Development Fundamentals"],
       description: [
-        "Assisted lead instructors in delivering curriculum for diverse stacks including Laravel, ASP.NET, Flutter, and MERN.",
-        "Provided one-on-one technical mentorship to students, focusing on logic building and debugging complex code issues.",
-        "Managed grading for technical assignments and prepared hands-on lab material for student cohorts.",
-        "Substituted for lead teachers during lectures, ensuring consistent instructional progress.",
-        "Conducted targeted revision sessions for students requiring extra attention on core programming concepts."
+        "Designed weekly programming assignments, coding challenges, and practical assessments covering core web development fundamentals.",
+        "Conducted 1-on-1 mentoring sessions and hands-on lab classes to guide students through complex backend and frontend coding concepts.",
+        "Monitored student progress on live web applications and generated detailed monthly performance evaluation reports on their growth."
       ],
-      shortSummary: "Mentored students across multiple tech stacks and managed technical lab environments."
+      shortSummary: "Designed practical assessments, conducted 1-on-1 coding mentorship, and evaluated student progress on live web apps."
     },
     {
       company: "Indigo Textile",
@@ -95,6 +107,21 @@ experiences: [
         "Maintained and upscaled application performance based on direct stakeholder feedback and user requests."
       ],
       shortSummary: "Architected FBR-compliant invoicing and automated inventory solutions."
+    },
+    {
+      company: "Rocket AMZ",
+      logo: "/logos/experience/rocket-amz.png",
+      role: "WordPress CMS Developer",
+      location: "Karachi, Pakistan",
+      startDate: "03/2026",
+      endDate: "Present",
+      technologies: ["WordPress", "WooCommerce", "PHP", "JavaScript", "MySQL", "APIs", "REST API", "CRM Integration"],
+      description: [
+        "Build, customize, and maintain high-performing e-commerce storefronts and business websites using WordPress and WooCommerce.",
+        "Develop custom WordPress plugins and themes from scratch to add unique, tailored features based on specific client goals.",
+        "Integrate third-party APIs, CRM platforms, and payment gateways while actively optimizing database speed and resolving technical bugs."
+      ],
+      shortSummary: "Developed custom WordPress/WooCommerce solutions, themes, plugins, and third-party API integrations."
     },
   ],
   educations: [
