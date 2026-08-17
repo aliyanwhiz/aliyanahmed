@@ -62,7 +62,7 @@ experiences: [
     },
     {
       company: "TechTricks IT Solutions",
-      logo: "/logos/experience/techtricks.png",
+      logo: "",
       role: "CMS PHP Developer",
       location: "Karachi, Pakistan",
       startDate: "06/2022",
